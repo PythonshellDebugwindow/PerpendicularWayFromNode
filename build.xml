@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project name="PerpendicularWayFromNode" default="dist" basedir=".">
+    <property name="plugin.main.version" value="15035"/>
+    <property name="plugin.version" value="1.0.0"/>
+
+    <property name="plugin.author" value="PythonshellDebugwindow"/>
+    <property name="plugin.class" value="PerpendicularWayFromNode.PerpendicularWayFromNodePlugin"/>
+    <property name="plugin.description" value="Allows the user to create a perpendicular way from a starting node."/>
+    <property name="plugin.icon" value="images/perpendicularwayfromnode.svg"/>
+    <property name="plugin.link" value="https://github.com/PythonshellDebugwindow"/>
+    <property name="plugin.canloadatruntime" value="true"/>
+
+    <import file="../build-common.xml"/>
+</project>

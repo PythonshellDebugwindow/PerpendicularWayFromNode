@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" version="1.1">
+ <!-- Way & arrow-->
+ <!-- Red-white nodes -->
+ <!-- Grey node -->
+ <g class="layer">
+  <title>Layer 1</title>
+  <rect height="0" id="svg_10" stroke="#df421e" transform="rotate(135 7.79502 16.1979)" width="9" x="3.3" y="16.2"/>
+  <rect height="0" id="svg_6" stroke="#000000" transform="matrix(0.707107 0.707107 -0.707107 0.707107 12.0004 -4.97039)" width="24.46" x="-0.23" y="12"/>
+  <path d="m9.88,24.73l2.12,-2.12l2.12,2.12l-2.12,2.12l-2.12,-2.12zm0,-12.73l2.12,-2.12l2.12,2.12l-2.12,2.12l-2.12,-2.12zm0,-12.73l2.12,-2.12l2.12,2.12l-2.12,2.12l-2.12,-2.12z" fill="#bababa" id="svg_2" stroke="#7a7a7a" transform="rotate(-45 12 12)"/>
+  <path d="m1.51,19.52l3,0l0,3l-3,0l0,-3z" fill="#bababa" id="svg_3" stroke="#7a7a7a"/>
+  <rect height="0" id="svg_9" stroke="#000000" transform="rotate(-45 15.9366 6.78112)" x="15.94" y="6.78"/>
+ </g>
+</svg>
