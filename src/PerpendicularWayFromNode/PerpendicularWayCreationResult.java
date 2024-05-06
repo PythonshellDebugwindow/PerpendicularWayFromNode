@@ -139,7 +139,7 @@ class PerpendicularWayCreationResult {
      * Modified from
      * {@link org.openstreetmap.josm.actions.mapmode.DrawAction#insertNodeIntoAllNearbySegments DrawAction.insertNodeIntoAllNearbySegments}
      */
-    private void insertNodeIntoAllNearbySegments(List<WaySegment> wss, Node n, Collection<Command> cmds) {
+    private static void insertNodeIntoAllNearbySegments(List<WaySegment> wss, Node n, Collection<Command> cmds) {
         Map<Way, List<Integer>> insertPoints = new HashMap<>();
         for (WaySegment ws : wss) {
             Way way = ws.getWay();

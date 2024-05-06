@@ -89,7 +89,7 @@ class PerpendicularWayFromNodeAction extends JosmAction {
         }
     }
 
-    private PerpendicularWayCreationResult getPerpendicularWayFromNodeResult(
+    private static PerpendicularWayCreationResult getPerpendicularWayFromNodeResult(
             Way toContinue, Way reference) {
         if(toContinue.isClosed()) {
             return new PerpendicularWayCreationResult(tr("Cannot extend a closed way."));
@@ -97,7 +97,7 @@ class PerpendicularWayFromNodeAction extends JosmAction {
         return getPerpendicularWayFromNodeResult(toContinue.lastNode(), reference);
     }
 
-    private PerpendicularWayCreationResult getPerpendicularWayFromNodeResult(
+    private static PerpendicularWayCreationResult getPerpendicularWayFromNodeResult(
             Node fromNode, Way reference) {
         WaySegment closestSegment = Geometry.getClosestWaySegment(reference, fromNode);
         if(closestSegment == null) {
@@ -127,7 +127,7 @@ class PerpendicularWayFromNodeAction extends JosmAction {
         return new PerpendicularWayCreationResult(reference, fromNode, closestSegment, closestPoint);
     }
 
-    private void showSelectionMessage() {
+    private static void showSelectionMessage() {
         new Notification(
                 tr("Please select:\n" +
                         "* One node and one way; or\n" +

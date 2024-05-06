@@ -7,7 +7,7 @@
     <property name="plugin.class" value="PerpendicularWayFromNode.PerpendicularWayFromNodePlugin"/>
     <property name="plugin.description" value="Allows the user to create a perpendicular way from a starting node."/>
     <property name="plugin.icon" value="images/perpendicularwayfromnode.svg"/>
-    <property name="plugin.link" value="https://github.com/PythonshellDebugwindow"/>
+    <property name="plugin.link" value="https://github.com/PythonshellDebugwindow/PerpendicularWayFromNode"/>
     <property name="plugin.canloadatruntime" value="true"/>
 
     <import file="../build-common.xml"/>
